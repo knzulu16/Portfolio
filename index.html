@@ -1,35 +1,223 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>portfolio</title>
-  </head>
-  <body>
-    <h1>Nonzulu Kala's PortFolio<h1>
-      <h2>FRONT END PROJECTS</h2>
-<a href="https://knzulu16.github.io/">Basic Web Page</a>
-<br></br>
-<a href="https://knzulu16.github.io/FunctionTests">Test Functions</a>
-<br></br>
 
-<a href="https://knzulu16.github.io/git-Greeting">Greet Visitors</a>
-<br></br>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-GC77SCz5O11gVtXl0sSfbQYEWSSznn1wPDHgL1BGUTFU9iEoUrG4IOJa5CBVY8kR" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 
-<a href="https://knzulu16.github.io/Registration_Number">Registration Plates</a>
-<br></br>
-<a href="https://knzulu16.github.io/MachingDays">Match Weekdays</a>
-<br></br>
-<a href="https://knzulu16.github.io/ShoeCatalogue">Shoe Catalogue</a>
-<br></br>
-<a href="https://knzulu16.github.io/myDecision">Everyday Decisions</a>
-<br></br>
+  <title></title>
+</head>
 
 
+<body>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#frontend">Front End Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#backend">Back End Projects</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#Contact">Contact</a>
+    </li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active show" id="home">
+
+      <p><img class="myPic" src=Images/IMG_20170917_133402.jpg align="left">I am heading in completing a one year programme at Project CodeX, in agile fullstack web development. My passion is all about providing solutions to problems ,creating real elegant looking
+        web applications. Keeping it simple and clean with added functionality of user interaction. We learn't JavaScript , Node.JS, Handlebar.JS, Express.JS, MongoDB, Test Driven Development(TDD) using mocha, HTML, CSS, Git and Agile principles of development
+        such as Sprint planning, daily Standup, demo and Retro. Every end of the term we did 4 days Hackathon where we built solutions for problems presented by our sponsor such as Jumo.</p>
+
+    </div>
+
+    <!-- sinking to show icons -->
 
 
 
-  </body>
+    <div class="tab-pane fade" id="frontend">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Basic web page</p>
+          <a href="https://knzulu16.github.io/">
+          <img class="align" src="Images/basicWeb.png" >
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Tests using TDD and mocha.</p>
+          <a href="https://knzulu16.github.io/FunctionTests">
+          <img class="align" src=Images/tests.png>
+           </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Greet visitors using different languages.</p>
+          <a href="https://knzulu16.github.io/git-Greeting">
+          <img class="align" src=Images/greet.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Allows you to enter registration numbers and filter with diferent downs.</p>
+          <a href="https://knzulu16.github.io/Registration_Number">
+          <img class="align" src=Images/registration.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Matching days when you click a certain date it highliht the day using different colors.</p>
+          <a href="https://knzulu16.github.io/MachingDays">
+          <img class="align" src=Images/matching.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          </p>Shoe catalogue allows you to filter with brand,product type and add shoe.</p>
+          <a href="https://knzulu16.github.io/ShoeCatalogue">
+          <img class="align" src=Images/shoeCatalogue.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Everyday decision allows you to check the depart and arrival time and as well update the existing time.</p>
+          <a href="https://knzulu16.github.io/myDecision">
+          <img class="align" src=Images/everyDay.png>
+        </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="backend">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <p>Tests using TDD,mocha and Travis.</p>
+          <img class="align" src=Images/tests.png>
+        </div>
+        <div class="col-sm-4">
+          <p>Greet web app greet visitors using diferent languages.</p>
+          <a href="http://greet-webapp.herokuapp.com/">
+          <img class="align" src=Images/greetWebForm.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Regirtration web app allows you to enter registration numbers and filter with diferent downs, save the data in database.</p>
+          <a href="http://reg-webapp.herokuapp.com/">
+          <img class="align" src=Images/reg-web.png>
+        </a>
+        </div>
+        <div class="col-sm-4">
+          <p>Waiter availability allows the user to select work schedule and display on the admin side.</p>
+          <a href="https://waiteravailability-webapp.herokuapp.com/waiter/Nzulu"></a>
+          <img class="align" src=Images/waiterApp.png>
+          </a>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          </p>API shoe catalogue allows a user to filter with brand and size,a user can purchase a shoe,admin can update the existing shoe and add new shoe.</p>
+          <a href="https://api-shoecatalogue.herokuapp.com/">
+          <img class="align" src=Images/shoeAPI.png>
+        </a>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="tab-pane fade" id="Contact">
+      <form class="well form-horizontal" action=" " method="post" id="contact_form">
+        <fieldset>
+
+          <!-- Form Name -->
+          Contact Me
+
+          <!-- Text input-->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">First Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <p class="form-control"> Nonzulu</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Last Name</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <p class="form-control">Kala </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">E-Mail Address</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <p class="form-control">knzulu16@gmail.com </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Alternative E-Mail Address</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <p class="form-control">nonzulu@projectcodex.co </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Text input-->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Cell No </label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                <p class="form-control"> 078 339 0259 / 078846 7794</p>
+              </div>
+            </div>
+          </div>
+
+        </fieldset>
+      </form>
+
+    </div>
+
+
+
+  </div>
+  *******
+
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+
+    <div class="navbar-footer">
+      <footer>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+        <a href="#"><i class="fa fa-skype"></i></a>
+      </footer>
+    </div>
+
+    <p class="navbar-text navbar-right">company &copy; 2017</p>
+
+  </nav>
+
+</body>
+
 </html>

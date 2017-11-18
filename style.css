@@ -1,0 +1,47 @@
+
+.myPic{
+
+
+  display: block;
+  margin: auto;
+  width: 20%;
+
+}
+.align{
+  width:20em;
+  height:15em;
+  margin-right: 10%;
+
+}
+.centered{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+p{
+  width: 50%;
+  font-size: 16px;
+}
+#contact{
+  /*margin-bottom:50%;*/
+  margin-top: -40px;
+}
+footer {
+  background: #061D25;
+  padding: 10px 0;
+  text-align: center;
+}
+footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+footer a:hover {
+  color: white;
+}
