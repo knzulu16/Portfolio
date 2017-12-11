@@ -17,7 +17,7 @@
   <div id="Home" class="container">
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link disabled" data-toggle="tab" href="#home">About</a>
+        <a class="nav-link disabled" data-toggle="tab" aria-expanded="true" href="#home">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#frontend">Front End Projects</a>
@@ -32,10 +32,10 @@
     </ul>
     <div id="myTabContent" class="tab-content">
 
-      <div class="tab-pane fade" id="home">
+      <div class="tab-pane fade active in" id="home" >
         <div class="row">
           <div class="col-sm-10">
-            <p><img class="img-thumbnail" src=Image/IMG_20170917_133402.jpg align="center">I am Nonzulu Kala ,I have completed a one year programme at Project CodeX, in agile fullstack web development. My passion is all about providing solutions to problems
+            <p class="bio"><img class="img-thumbnail" src=Image/IMG_20170917_133402.jpg align="center">I am Nonzulu Kala ,I have completed a one year programme at Project CodeX, in agile fullstack web development. My passion is all about providing solutions to problems
               ,creating real elegant looking web applications. Keeping it simple and clean with added functionality of user interaction. We learn't JavaScript , Node.JS, Handlebar.JS, Express.JS, MongoDB, Test Driven Development(TDD) using mocha, HTML,
               CSS, Git and Agile principles of development such as Sprint planning, daily Standups, demonstration and Retrospective. Every end of the term we did 4 days Hackathon where we built solutions for problems presented by our sponsor such as Jumo
               and Steltix.</p>
@@ -43,6 +43,7 @@
           </div>
         </div>
       </div>
+
       <!-- sinking to show icons -->
 
 
@@ -51,16 +52,18 @@
         <div class="row">
 
           <div class="col-sm-4">
+            <div class="card">
             <p class="card-text">Basic web page</p>
             <a href="https://knzulu16.github.io/">
-          <img class="align" src="Image/basicWeb.jpg" >
+          <img class="align" src="Image/basicWeb.jpg" alt="Card image cap">
         </a>
           </div>
+        </div>
 
           <div class="col-sm-4">
             <p>Tests using TDD and mocha.</p>
             <a href="https://knzulu16.github.io/FunctionTests">
-          <img class="align" src=Image/tests.png>
+          <img class="align" src=Image/tests.png alt="Card image cap">
            </a>
           </div>
           <div class="col-sm-4">
@@ -204,7 +207,7 @@
         </form>
       </div>
 
-    </div>
+</div>
     <div id="open">
     </div>
     <nav class="navbar navbar-default navbar-fixed-bottom">
