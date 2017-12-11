@@ -1,16 +1,46 @@
 
-.myPic{
+#home{
+  margin-left:20%;
+  width: 80%;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+#frontend{
+  margin-top: 2em;
+
+}
+#backend{
+  margin-top: 2em;
+
+}
+#Contact{
+  margin-top: 2em;
+
+}
+#open{
+  width: auto;
+  height: auto;
+}
+
+
+.img-thumbnail{
 
 
   display: block;
   margin: auto;
-  width: 20%;
+  width:30%;
 
 }
+
 .align{
   width:20em;
   height:15em;
-  margin-right: 10%;
+
 
 }
 .centered{
@@ -20,7 +50,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 p{
-  width: 50%;
+  width: 70%;
   font-size: 16px;
 }
 #contact{
